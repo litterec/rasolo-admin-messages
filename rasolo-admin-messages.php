@@ -65,17 +65,14 @@ class RasoloAdminMessages
         load_plugin_textdomain( 'rasolo-admin-messages', FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
     }
 
-
-    public function test_admin_head(){
-//        return;
-        ?><div class="a"><?php
-        echo '================';
-        printf(__('There are messages (%s) that are not shown.','rasolo-admin-messages'),44);
-        ?>admin_head!!!!</div>
-<?php
-
-    }
-
+//    public function test_admin_head(){
+//        ? ><div class="a">< ?php
+//        echo '================';
+//        printf(__('There are messages (%s) that are not shown.','rasolo-admin-messages'),44);
+//        ? >admin_head!!!!</div>
+//< ?php
+//
+//    }
 //    public function register_scripts() {
 //        wp_register_script('wpps-three', plugin_dir_url(__FILE__) . 'lib/three.min.js', array(), '3.3', true);
 //    }
