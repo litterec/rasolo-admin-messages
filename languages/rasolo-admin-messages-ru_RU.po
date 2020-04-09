@@ -1,0 +1,35 @@
+# Copyright (C) 2017 Ra-Solo Admin Messages
+# This file is distributed under the same license as the Ra-Solo Admin Messages package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ra-Solo Admin Messages\n"
+"POT-Creation-Date: 2020-04-07 16:18:45+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-04-08 20:27+0300\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru\n"
+
+#: rasolo_admin_messages.php:1
+msgid "Send messages to the site administrator in the admin panel"
+msgstr "Плагин создает возможность отправлять сообщения администратору сайта в админпанели"
+
+#: rasolo_admin_messages.php:1
+msgid "Tesst messages"
+msgstr "Тестирование переваода"
+
+#: rasolo_admin_messages.php:1
+msgid "Tesst messages2"
+msgstr "Тестирование перевода"
+
+#: rasolo_admin_messages.php:1
+msgid "Remove this message"
+msgstr "Убрать это сообщение"
+
+#: rasolo_admin_messages.php:1
+msgid "There are messages (%s) that are not shown."
+msgstr "Есть еще сообщения, %s шт., которые не показаны."
