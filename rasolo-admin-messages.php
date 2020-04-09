@@ -48,13 +48,18 @@ class RasoloAdminMessages
         if( is_admin() ) {
 // This for static methods:
 // add_action( 'admin_init', array('MyClass','getStuffDone' ) );
+
+            if ( ! session_id() ) {
+                session_start();
+            }
+
             add_action('admin_init', array('RasoloAdminMessages','load_plugin_textdomain' ),99 );
 //            add_action('admin_head',array( $this, 'test_admin_head' ));
 //            add_action( 'plugins_loaded', 'my_plugin_load_plugin_textdomain' );
 //         add_action('plugins_loaded???',array( $this, 'register_scripts' ));
 
 //            if(!has_action('admin_notices', array($this,'display_messages'))){
-                add_action('admin_notices', array($this,'display_messages'));
+            add_action('admin_notices', array($this,'display_messages'));
 //            };
 
         }
@@ -190,10 +195,6 @@ class RasoloAdminMessages
 
     private function get_msg_from_session()
     {
-        if ( ! session_id() ) {
-            session_start();
-        }
-
         if ( ! empty( $_SESSION[ self::$SESSION_KEY ] ) ) {
             $sess_unser = @unserialize( $_SESSION[ self::$SESSION_KEY ] );
             if ( ! is_array( $sess_unser ) ) {
