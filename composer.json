@@ -15,7 +15,8 @@
     ],
     "type": "wordpress-plugin",
     "config": {
-        "vendor-dir": "wp-content/vendor"
+        "vendor-dir": "wp-content/vendor",
+        "preferred-install": "dist"
     },
     "require":{
         "php":">=5.5.0",
