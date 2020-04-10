@@ -1,5 +1,5 @@
 {
-    "name":"rasolo/rasolo_admin_messages",
+    "name":"rasolo/rasolo-admin-messages",
     "description":"Create and display messages for the administrator in the admin panel",
     "license":"MIT",
     "version": "@dev",
