@@ -116,7 +116,7 @@ class RasoloAdminMessages
 
         $msg_count=0;
         $total_messages=count($this->messages);
-        myvar_dump($total_messages,'$total_messages',1);
+//        myvar_dump($total_messages,'$total_messages',1);
         foreach ($this->messages as $nth_msg) {
             if(empty($nth_msg['msg_txt'])){
                 continue;
